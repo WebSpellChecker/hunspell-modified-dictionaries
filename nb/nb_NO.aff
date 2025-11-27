@@ -13,10 +13,12 @@ CHECKCOMPOUNDTRIPLE
 # Makes hunspell suggest to simplify three consonants-> two: trafikk|kork-> trafikkork
 SIMPLIFIEDTRIPLE
 
-
+COMPOUNDBEGIN <
+COMPOUNDEND >
+ONLYINCOMPOUND -
 COMPOUNDFLAG z
 
-COMPOUNDMIN 4
+
 
 
 PFX a Y 1
